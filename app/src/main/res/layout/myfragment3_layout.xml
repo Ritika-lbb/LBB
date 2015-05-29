@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="1dp"
+        android:background="#e03647"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lbbgiveaway"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>

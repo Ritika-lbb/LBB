@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:background="@color/accent_material_light">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Welcome to your LBB!!!!!"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_photo"
+            android:src="@drawable/profile"
+            android:layout_below="@+id/welcome"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_below="@+id/welcome"
+            android:layout_alignRight="@+id/number"
+            android:layout_alignEnd="@+id/number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+919876543210"
+            android:id="@+id/number"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/connectfacebook"
+            android:layout_alignBottom="@+id/profile_photo"
+            android:layout_alignLeft="@+id/number"
+            android:layout_alignStart="@+id/number" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:numColumns="2"
+        >
+
+    </GridView>
+
+    <!--<GridView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:id="@+id/gridView"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:rowCount="8"-->
+        <!--android:columnCount="2"-->
+        <!--android:columnWidth="90dp"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:horizontalSpacing="10dp"-->
+        <!--android:verticalSpacing="10dp"-->
+        <!--android:gravity="center"-->
+        <!--android:stretchMode="columnWidth"/>-->
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LBB</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_category">Category</string>
+    <string name="my_lbb">MyLBB</string>
+    <string name="act_mylbb">MyLBB</string>
+    <string name="action_event">Events</string>
+    <string name="action_discover">Discover</string>
+    <string name="action_near">Near Me</string>
+    <string name="action_lbb">LBB</string>
+    <string name="action_back">Back</string>
+</resources>

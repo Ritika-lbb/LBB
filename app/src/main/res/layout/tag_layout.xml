@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:textSize="25sp"
+        android:id="@+id/title"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="3rd-5th April, 12:00 P.M- 1:00 P.M "
+        android:id="@+id/time"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="JawaharLal Nehru Stadium Lawns"
+        android:id="@+id/location"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="INR 100/person"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cost"
+        android:layout_below="@+id/location"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tag"
+        android:textSize="25sp"
+        android:id="@+id/tag"
+        android:layout_below="@+id/cost"
+        android:layout_marginTop="3dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="160dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food, Event, Chinese, American,TEA , Budget, Rolls"
+        android:textSize="25sp"
+        android:textColor="#ff0022"
+        android:id="@+id/tag_content"
+        android:layout_below="@+id/tag"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

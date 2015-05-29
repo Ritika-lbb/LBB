@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="1dp"
+        android:background="#e03647"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A rather taxing climb for anyone out of the gym longer than two months, a non-descript building {all of it is still a WIP}, and its only famous neighbour being PCO, getting to Boheme was a little more inconvenient than we would have hoped, but as soon as our hands found that door handle, and eyes the space, all our troubles but were forgotten. Very NYC Soho-Lower East Side inspired, for a closer to home reference, think sunny interiors, lots of potted plants, an open space, and basically the visual ‘modern eatery’ conjures up. Deliberately mismatched sofas, the kind you can imagine came from a stellar thrift store bargain, rough wooden tables, hanging lights, bare bricks, lamps, floor to ceiling french windows, and the occasional poster, Boheme is perfect for any time of day or night. The day will bring respite, quiet time, free Wi-Fi, and the night; acoustic sets, lamp light and the promise that Delhi can be great. The perfect space for a friends catch-up and a romantic meet-cute.
+
+As for the menu, expect international and domestic fare, with a healthy mix of continental, oriental inserts and some home-grown additions. So Normandy Roast Chicken, Smoked Salmon, Malabar Parottas, Mango Masala Fish Curry, and Prawn Moilee. As for alcohol, you know the drill, they’re waiting on a license and so are we.
+
+The idea of free Wi-Fi, a kitsch worn-out {in the best possible way} arm chair, and all that sunlight; the only thing that’ll complete it, is a ice cold summer cocktail. That said, there isn’t much stopping us from going even now. Not even that climb."
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+               />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>

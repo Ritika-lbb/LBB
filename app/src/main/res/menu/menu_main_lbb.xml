@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainLbb">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_category"
+        android:title="@string/action_category"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_mylbb"
+        android:title="@string/my_lbb"
+        app:showAsAction="ifRoom"
+        />
+</menu>

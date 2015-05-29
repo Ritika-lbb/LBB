@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="1dp"
+        android:background="#e03647"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Related Post"
+                android:textStyle="bold"
+                android:id="@+id/post"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:id="@+id/postImage1"
+                android:layout_below="@+id/post"
+                android:background="@drawable/pvr"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:id="@+id/postImage2"
+                android:layout_below="@+id/post"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/postImage1"
+                android:background="@drawable/room"
+                 />
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:id="@+id/postImage3"
+                android:layout_below="@+id/postImage1"
+                android:background="@drawable/spa"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+             />
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:id="@+id/postImage4"
+                android:layout_below="@+id/postImage2"
+                android:layout_toRightOf="@+id/postImage3"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/night"/>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>
